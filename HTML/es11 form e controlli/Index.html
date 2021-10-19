@@ -1,0 +1,67 @@
+<!DOCTYPEhtml> 			<!--documento html5-->
+<htmllang="it">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>  Es 11 </title>
+	</head>
+	<body>
+		<h1 align="center"> Pagina di registrazione  </h1>
+		<form action="pagina2.html">
+		
+		<label for="txtNome"> Nome: </label>
+			<input type="text" id="txtNome" autocomplete="off" required size="50" maxlength="12" placeholder="Inserisci il tuo nome"  />
+				</br>
+		<label for="txtNome"> Cognome: </label>
+			<input type="text" id="txtCognome" autocomplete="off" required size="50" maxlength="20" placeholder="Inserisci il tuo nome"  />
+				</br>
+		<label for="txtNome"> Password: </label>
+			<input type="text" id="txtNome" autocomplete="off" required size="50" maxlength="20" placeholder="Inserisci la password"  />
+				</br>
+		<label for="txtNome"> Età: </label>
+			<input type="number" id="txteta" autocomplete="off" required size="50"  min="18" max="50" placeholder="Inserisci la password" />
+				</br>
+		<label for="txtNome"> Immagine profilo: </label>
+		<input type="file" id="txtImmagine" autocomplete="off" required size="50" placeholder="Scegli immagine profilo" />
+				</br> </br>
+		<p> Hobbies </p>
+		<label> sport </label> 
+		<input type="checkbox" id="chkSport" autocomplete="off"/>
+		&nbsp; &nbsp; &nbsp;
+		<label> Cinema </label> 
+		<input type="checkbox" id="chkCinema" autocomplete="off"/> 
+		&nbsp; &nbsp; &nbsp;
+		<label> Informatica </label> 
+		<input type="checkbox" id="chkInformatica" autocomplete="off"/> 
+						</br> </br>
+		<p> Scuola: </p>
+		<label for="optITIS"> ITIS </label>
+			<input type="radio" id="optITIS" autocomplete="off"/>
+		&nbsp; &nbsp; &nbsp;
+		<label for="optITIS"> AFM o TUR </label>
+			<input type="radio" id="optRAGIONERIA" autocomplete="off"/>
+		&nbsp; &nbsp; &nbsp;
+						</br> </br>
+		
+		<label for="txtCommenti"> Commenti </label>
+		<textarea id="txtCommenti"  cols="30" rows="10" placeholder="Inserisci qui i tuoi Commenti"> </textarea>
+						</br> </br>
+		
+		<label for="lstProvincia"> Provincia di residenza </label> 
+		<select id="lstprovincia">
+			<option> Marocco </option>
+			<option> Nigeria </option>
+			<option> Burundi </option>
+			<option> Congo </option>
+		
+		
+		<input type="reset" value="reset"/>
+		&nbsp; &nbsp; &nbsp;
+		
+		<input type="submit" value="invia"/>
+		&nbsp; &nbsp; &nbsp;
+		
+		</form>
+		
+	</body>
+</html>
+
