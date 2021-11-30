@@ -1,0 +1,58 @@
+*{
+	/*CSS RESET */
+	padding:0;
+	margin:2%;
+}
+
+#wrapper{
+	width:50%;
+	margin-left: 25%;
+	background-color: #777;
+	border: 1px solid #F00;
+	font-size:20pt;
+	font-weight: blod;
+	text-align:center
+}
+
+header, nav, footer{
+	padding:37px;  /*100-26/2=37*/
+}
+
+header{
+	background-color: #FF0;
+}
+
+nav{
+	background-color: #0F0;
+}
+
+footer{
+	background-color: #00F;
+}
+
+section{
+	background-color: #F0F;
+	border: 1px solid #000;
+	overflow: auto; /*serve per fare in modo
+	 che il contenitore senta gli elementi float interni*/
+}
+
+section p{
+	padding: 25px;
+}
+
+article{
+	background-color: #0FF;
+	width:60%;
+	height: 160px;
+	float: right;
+	margin-top: 0;
+}
+
+aside{
+	background-color: #0A0;
+	width:30%;
+	height: 330px;
+	
+	margin-top: 0;
+}
